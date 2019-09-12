@@ -1,4 +1,4 @@
-def turn_count
+def turn_count(board)
   counter = 0
   board.each do |choice|
     if counter == "X" || counter == "O"
@@ -8,9 +8,10 @@ def turn_count
   end
 end
 
-def current_player
-  if turn_count % 2 == 0
-    .even?("X")
+def current_player(board)
+  counter = turn_count(board)
+  if countert % 2 == 0
+    return "X"
   else
-    .odd?("O")
+    return "O"
 end
