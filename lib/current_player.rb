@@ -4,6 +4,8 @@ def turn_count
     if counter == "X" || counter == "O"
       counter += 1
     end
+  return counter
+  end
 end
 
 def current_player
