@@ -1,6 +1,6 @@
 def turn_count
   counter = 0
-  board.each do 
+  board.each do |choice|
   if counter < 9
     counter = counter + 1
   end
